@@ -13,9 +13,9 @@ public class WhoGoesThere {
 		
 		System.out.println("\n\tHello! What is your first name?");
 		firstName= inputDevice.nextLine();
-		System.out.println("\n\tHello! What is your last name?");
+		System.out.println("\n\t What is your last name?");
 		lastName=inputDevice.nextLine();
-		System.out.println("\n\tHello! What is your age?");
+		System.out.println("\n\t What is your age?");
 		age=inputDevice.nextInt();
 		
 		System.out.println("Hello, "+ 
