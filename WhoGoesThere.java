@@ -18,8 +18,7 @@ public class WhoGoesThere {
 		System.out.println("\n\tHello! What is your age?");
 		age=inputDevice.nextInt();
 		
-		System.out.println("\n******************************************************\n"+
-		"Hello, \n"+ 
-		"As long as you are over the age of " +(age-10) +", then you are free to pass! \n"+	firstName+ " " +lastName +"!");
+		System.out.println("Hello, "+ 
+		"As long as you are over the age of " +(age-10) +", \nthen you are free to pass! "+	firstName+ " " +lastName +"!");
 	}
 }
